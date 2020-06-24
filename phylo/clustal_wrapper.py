@@ -1,6 +1,6 @@
 import os
-from Bio.Align.Applications import ClustalwCommandline
 
+from Bio.Align.Applications import ClustalwCommandline
 
 class ClustalWrapper:
     def __init__(self, clustal_exe_path):

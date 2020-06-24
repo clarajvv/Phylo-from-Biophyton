@@ -17,7 +17,7 @@ def read_multiFasta(protein_file):
     return fastas
 
 
-betaCasein=read_multiFasta("proteins/BetaCasein.txt")
-phosphorylase=read_multiFasta("proteins/PyrimidinePurineNucleosidePhosphorylase.txt")
+betaCasein=read_multiFasta("files/BetaCasein.txt")
+phosphorylase=read_multiFasta("files/PyrimidinePurineNucleosidePhosphorylase.txt")
 
 

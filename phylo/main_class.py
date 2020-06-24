@@ -7,6 +7,6 @@ if __name__ == '__main__':
     clustalWrapper = ClustalWrapper(clustalWPath)
 
     ##Example 1
-    clustalWrapper.generate_alignment_tree(("proteins\\BetaCasein.fasta"))
+    clustalWrapper.generate_alignment_tree(("files\\BetaCasein.fasta"))
     ##Example 2
-    clustalWrapper.generate_alignment_tree("proteins\\PyrimidinePurineNucleosidePhosphorylase.fasta")
+    clustalWrapper.generate_alignment_tree("files\\PyrimidinePurineNucleosidePhosphorylase.fasta")
